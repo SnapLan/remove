@@ -8,11 +8,13 @@ A library that makes the dumbest and simplest variable definition possible.
 ## Usage
 
 First of all, import the library:
+
 ```
 import 'package:remove/remove.dart';
 ```
 
 Remove Functions
+
 ```
 var a = ["Hello", "안녕하세요", "こんにちは", "Γειά σου", "नमस्ते", "你好"];
 var b = "abcd";
@@ -23,7 +25,40 @@ c = removeSpecificLetters(c, ["a", "c"]);
 ```
 
 Reset Function
+
 ```
 var d = "reset it!";
 d = resetString(d);
+```
+
+A Simple Example
+
+```
+import 'package:remove/remove.dart';
+
+void main() {
+  var a = ["Hello", "안녕하세요", "こんにちは", "Γειά σου", "नमस्ते", "你好"];
+  var b = "abcd";
+  print(removeBrakets(a));
+  b = resetString(b);
+  print(b);
+  b = "efg";
+  print(b);
+  b = removeSpecificLetter(b, "e");
+  print(b);
+  b = resetString(b);
+  b = "aabbccaa";
+  b = removeSpecificLetters(b, ["a", "c"]);
+  print(b);
+}
+```
+
+Output
+
+```
+Hello, 안녕하세요, こんにちは, Γειά σου, नमस्ते, 你好
+
+efg
+fg
+bb
 ```

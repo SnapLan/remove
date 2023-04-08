@@ -1,3 +1,7 @@
+## 1.0.7
+
+- edit README.md
+
 ## 1.0.6
 
 - change pubspec.yaml
