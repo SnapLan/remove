@@ -1,3 +1,7 @@
+## 1.0.6
+
+- change pubspec.yaml
+
 ## 1.0.5
 
 - add comments for functions
