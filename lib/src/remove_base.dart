@@ -19,7 +19,7 @@ String removeSpecificLetter(String arg, String letter) {
   return replacedArgument;
 }
 
-/// Remove specific letters, arguments' types are String and List<String>
+/// Remove specific letters, parameters' types are String and List<String>
 String removeSpecificLetters(String arg, List<String> letters) {
   int i = 0;
   while (i < letters.length) {
@@ -31,3 +31,23 @@ String removeSpecificLetters(String arg, List<String> letters) {
   }
   return arg;
 }
+
+// int exactCeil(double arg, ExactRCFT to) {
+//   int a;
+//   if (to == ExactRCFT.one) {
+//     a = 1;
+//     if (arg > 1) {}
+//   } else if (to == ExactRCFT.ten) {
+//     a = 10;
+//   } else if (to == ExactRCFT.hundred) {
+//     a = 100;
+//   } else if (to == ExactRCFT.thousand) {
+//     a = 1000;
+//   } else if (to == ExactRCFT.tenThousand) {
+//     a = 10000;
+//   } else if (to == ExactRCFT.hundredThousand) {
+//     a = 100000;
+//   } else if (to == ExactRCFT.million) {
+//     a = 1000000;
+//   }
+// }

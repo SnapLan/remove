@@ -3,6 +3,8 @@
 import 'package:remove/remove.dart';
 
 void main() {
+  var adsa = 0.01;
+  adsa.ceil();
   var a = ["Hello", "안녕하세요", "こんにちは", "Γειά σου", "नमस्ते", "你好"];
   var b = "abcd";
   print(removeBrakets(a));
