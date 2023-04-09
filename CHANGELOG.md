@@ -1,3 +1,7 @@
+## 1.0.9
+
+- edit LICENSE
+
 ## 1.0.8
 
 - edit pubspec.yaml
