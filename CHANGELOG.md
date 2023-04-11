@@ -1,3 +1,7 @@
+## 1.0.10
+
+- edit README.md
+
 ## 1.0.9
 
 - edit LICENSE

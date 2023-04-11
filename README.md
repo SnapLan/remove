@@ -2,8 +2,9 @@
 
 A library that makes the dumbest and simplest variable definition possible.
 
-[![pub package](https://img.shields.io/pub/v/remove)](https://pub.dev/packages/remove)
 [![license](https://img.shields.io/github/license/SnapLan/remove)](https://opensource.org/license/bsd-3-clause/)
+[![pub package](https://img.shields.io/pub/v/remove)](https://pub.dev/packages/remove)
+[![likes](https://img.shields.io/pub/likes/remove)](https://pub.dev/packages/remove/score)
 
 ## Usage
 

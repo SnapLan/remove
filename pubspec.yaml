@@ -1,6 +1,6 @@
 name: remove
 description: A library that makes the dumbest and simplest variable definition possible.
-version: 1.0.9
+version: 1.0.10
 repository: https://github.com/SnapLan/remove
 issue_tracker: https://github.com/SnapLan/remove/issues
 platforms:
